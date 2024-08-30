@@ -1,0 +1,13 @@
+@mixin d-flex-r($gap) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: $gap;
+}
+
+@mixin d-flex-c($gap) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: $gap;
+}

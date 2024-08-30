@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: Montserrat;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  background-image: url(/assets/hero-bg.svg);
+  width: 100%;
+  height: 100vh;
+  padding: 95px;
+}
+.hero-section header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-section nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 39px;
+}
+.hero-section nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 21px;
+}
+.hero-section .nav-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+}/*# sourceMappingURL=style.css.map */

@@ -8,6 +8,5 @@
 @mixin d-flex-c($gap) {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: $gap;
 }
